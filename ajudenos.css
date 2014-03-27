@@ -18,9 +18,10 @@
   height: 450px;
 }
 
-
-
-/*End of navbar */
+/*
+.CN{
+  -webkit-transform: scale();
+}*/
 
 
 /* Begin of the first big div*/
@@ -39,16 +40,29 @@
 
 }
 
-
 /* Featurettes
 ------------------------- */
 
+.featurette{
+  text-align: left;
+}
 .featurette-divider {
-  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+  margin: 40px 0; /* Space out the Bootstrap <hr> more */
 
 }
 
+.featurette-image {
+  width: 75%;
+}
 
+li{
+  font-size: 150%;  
+}
+
+.separator{
+  margin: 10px 0px;
+  border-top: 2px dashed #a22;
+}
 
 /* Thin out the marketing headings */
 .featurette-heading {
@@ -56,12 +70,6 @@
   line-height: 1;
   letter-spacing: -1px;
 }
-
-
-
-/*
- * Footer section
- */
 
 
 @media (min-width: 768px) {
