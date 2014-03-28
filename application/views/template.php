@@ -11,6 +11,10 @@
 
   <!-- Bootstrap -->
   <link href="<?php echo $this->config->item('bootstrap_path'); ?>css/bootstrap.min.css" rel="stylesheet">
+  <link href="<?php echo $this->config->item('base_url'); ?>/assets/css/navbar.css" rel="stylesheet">
+  <link href="<?php echo $this->config->item('base_url'); ?>/assets/css/inicio.css" rel="stylesheet">
+  <link href="<?php echo $this->config->item('base_url'); ?>/assets/css/colabore.css" rel="stylesheet">
+  <link href="<?php echo $this->config->item('base_url'); ?>/assets/css/common.css" rel="stylesheet">
   <link href="<?php echo $this->config->item('base_url'); ?>/assets/css/validadores.css" rel="stylesheet">
   
   <!-- Jquery -->
@@ -20,29 +24,30 @@
 <!-- Bootstrap starter template -->
 <body style="padding-top: 50px;">
   
-  <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-    <div class="container">
-      
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-          <span class="sr-only">Alterar navegação</span>
-        </button>
-        <a class="navbar-brand" href="<?php echo $this->config->item('base_url'); ?>">Encontro BCC</a>
-      </div>
-      
-      <div class="collapse navbar-collapse">
-        <ul class="nav navbar-nav">
-          <li <?php if($titulo == 'Patrocinadores') echo 'class=""active"'; ?>>
-            <?php echo anchor('patrocinadores', 'Patrocinadores'); ?>
-          </li>
-          <li <?php if($titulo == 'Categorias') echo 'class=""active"'; ?>>
-            <?php echo anchor('categorias', 'Categorias'); ?>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
+  <div class="masthead clearfix">
+        <div class="inner">
+            <h3 class="masthead-brand">
+              <a class="navbar-brand" href="<?php echo $this->config->item('base_url'); ?>">BCC 40 ANOS</a>
+            </h3>
+            <ul class="nav masthead-nav">
+              <li <?php if($titulo == 'Inicio') echo 'class="active"'; ?>>
+                <?php echo anchor($this->config->item('base_url'), 'Início'); ?>
+              </li>
+              
+              <li <?php if($titulo == 'Palestras') echo 'class="active"'; ?>>
+                <?php echo anchor('informacoes/palestras', 'Palestras'); ?>
+              </li>
 
+              <li <?php if($titulo == 'Colabore Conosco') echo 'class="active"'; ?>>
+                <?php echo anchor('informacoes/colabore', 'Colabore!'); ?>
+              </li>
+
+              <li <?php if($titulo == 'Categorias') echo 'class=""active"'; ?>>
+                <?php echo anchor('categorias', '(cadastrar categorias)'); ?>
+              </li>
+            </ul>
+        </div>
+      </div>
 
   <div class="container">
     <?php $this->load->view($view); ?>
