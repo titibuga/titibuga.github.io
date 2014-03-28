@@ -3,15 +3,17 @@
 <div class="cover-container">
 
  <div class="inner-cover">
-            
-            <h1 class="cover-heading">Cover your page.</h1>
-            <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
+
+			<img style="height:auto; width:auto; max-width: 500px;" class = "image-responsive"  src="assets/images/CN.png">   
+            <h1 class="cover-heading">Encontro do BCC - 40 anos</h1>
+            <p class="lead">Esse ano o curso de Bacharelado em Ciência da Computação na USP completa 40 anos. Para comemorar, 
+							acontecerá uma versão especial do tradicional Encontro do BCC.</p>
             <p class="lead">
               <a href="#" class="btn btn-lg btn-default">Learn more</a>
             </p>
     </div><!-- Inner Cover -->
 
-</div><!-- Cover container -->
+</div><!-- Cover container -->	
 
 
     <div class="fiturete-container"> <!-- Fiturete container -->
@@ -19,11 +21,14 @@
 
           <div class="row featurette">
             <div class="col-md-7">
-              <h2 class="featurette-heading">O BCC faz 40 anos. <span class="text-muted">Mas você que comemora :v.</span></h2>
-              <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+              <h2 class="featurette-heading">Encontro do BCC.<span class="text-muted">O que é isso?</span></h2>
+              <p class="lead"> Apesar de ser famoso entre os alunos do IME, muitos não conhecem o evento. Veja aqui
+						uma descrição da história do evento, do curso, e porque esse ano será especial.
+				</p>
             </div>
             <div class="col-md-5">
-              <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+				<img class = "image-responsive" style="height:auto; width:auto; max-height: 300px;"  src="assets/images/pombo.png"> 
+              <!-- <img class="featurette-image img-responsive" data-src="assets/images/pombo.png" alt="Generic placeholder image"> -->
             </div>
           </div>
 
@@ -34,11 +39,12 @@
           <div class="row featurette">
             
             <div class="col-md-5">
-              <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+              <img class = "image-responsive" style="height:auto; width:auto; max-height: 300px;"  src="assets/images/pombo.png"> 
             </div>
             <div class="col-md-7">
-              <h2 class="featurette-heading">O BCC faz 40 anos. <span class="text-muted">Mas você que comemora :v.</span></h2>
-              <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+              <h2 class="featurette-heading"> Patrocine o encontro, <span class="text-muted"> e aproveite as vantagens. </span></h2>
+              <p class="lead"> Devido a dimensão do evento esse ano, estamos à procura de patrocinadores. Acesse a página, e veja
+				como sua empresa pode se beneficiar sendo patrocinadora do evento. </p>
             </div>
             
           </div>

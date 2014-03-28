@@ -27,7 +27,7 @@
   <div class="masthead clearfix">
         <div class="inner">
             <h3 class="masthead-brand">
-              <a class="navbar-brand" href="<?php echo $this->config->item('base_url'); ?>">BCC 40 ANOS</a>
+              <a class="navbar-brand" href="<?php echo $this->config->item('base_url'); ?>">Encontro do BCC - 40 anos</a>
             </h3>
             <ul class="nav masthead-nav">
               <li <?php if($titulo == 'Inicio') echo 'class="active"'; ?>>
