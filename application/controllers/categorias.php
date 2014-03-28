@@ -8,6 +8,7 @@ class Categorias extends CI_Controller {
   {
     parent::__construct();
     $this->load->model('Categoria');
+    $this->load->database();
     $this->dados['titulo'] = 'Categorias';
   }
 

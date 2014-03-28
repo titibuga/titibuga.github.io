@@ -8,6 +8,7 @@ class Patrocinadores extends CI_Controller {
   {
     parent::__construct();
     $this->load->model('Patrocinador');
+    $this->load->database();
     $this->dados['titulo'] = 'Patrocinadores';
   }
 
