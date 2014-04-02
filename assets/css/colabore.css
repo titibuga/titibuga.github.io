@@ -78,30 +78,26 @@ li{
   border-top: 2px dashed #a22;
 }
 
+.col-md-5{
+  background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 400px;
+    float: right;
+}
+
 #diamond {
-    background-image: url("../images/Fractal_Diamond.png");
-    background-repeat: no-repeat;
-    background-position: right top;
-    background-size: 40%;
+    background-image: url("assets/images/Fractal_Diamond.png");
 }
 
 #gold {
-    background-image: url("../images/Graph_Gold.png");
-    background-repeat: no-repeat;
-    background-position: right top;
-    background-size: 40%;
+    background-image: url("assets/images/Graph_Gold.png");
 }
 
 #silver {
-    background-image: url("../images/Asm_Silver.png");
-    background-repeat: no-repeat;
-    background-position: right top;
-    background-size: 40%;
+    background-image: url("assets/images/Asm_Silver.png");
 }
 
 #cupper {
-    background-image: url("../images/Circuits_Cupper.png");
-    background-repeat: no-repeat;
-    background-position: right top;
-    background-size: 40%;
+    background-image: url("assets/images/Circuits_Cupper.png");
 }
