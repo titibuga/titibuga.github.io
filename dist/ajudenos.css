@@ -78,30 +78,26 @@ li{
   border-top: 2px dashed #a22;
 }
 
+.col-md-5{
+  background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 400px;
+    float: right;
+}
+
 #diamond {
     background-image: url("Fractal_Diamond.png");
-    background-repeat: no-repeat;
-    background-position: right top;
-    background-size: 40%;
 }
 
 #gold {
     background-image: url("Graph_Gold.png");
-    background-repeat: no-repeat;
-    background-position: right top;
-    background-size: 40%;
 }
 
 #silver {
     background-image: url("Asm_Silver.png");
-    background-repeat: no-repeat;
-    background-position: right top;
-    background-size: 40%;
 }
 
 #cupper {
     background-image: url("Circuits_Cupper.png");
-    background-repeat: no-repeat;
-    background-position: right top;
-    background-size: 40%;
 }
